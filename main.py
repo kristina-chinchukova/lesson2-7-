@@ -10,6 +10,7 @@ def  custom_write(file_name, strings):
         a=a+1
         p=(a,b)
         strings_positions[p]=strings[a-1]
+    file.close()
     return strings_positions
 
 
